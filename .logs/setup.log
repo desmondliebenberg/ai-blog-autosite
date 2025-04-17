@@ -1,0 +1,163 @@
+AI Blog Builder - Install Log
+Start Time: Wed Apr 16 14:35:29 2025
+
+
+ Starting Phase 1: Identity + Email Setup
+Generated identity: Jennifer Cortez / Username: jennifer.cortez
+ Creating temp email account with mail.tm API...
+ Failed to create temp email account.
+{"@id":"\/validation_errors\/00000000000002a80000000000000000","@type":"ConstraintViolationList","status":422,"violations":[{"propertyPath":"address","message":"The domain \u0022twoweird.one\u0022 is not valid.","code":null}],"detail":"address: The domain \u0022twoweird.one\u0022 is not valid.","hydra:title":"An error occurred","hydra:description":"address: The domain \u0022twoweird.one\u0022 is not valid.","type":"\/validation_errors\/00000000000002a80000000000000000","title":"An error occurred"}
+
+ Starting Phase 1: Identity + Email Setup
+Generated identity: David Watts / Username: david.watts
+ Fetching available mail.tm domains...
+ Using domain: ptct.net
+ Creating temp email account with mail.tm API...
+ Failed to create temp email account.
+{"@id":"\/validation_errors\/23bd9dbf-6b9b-41cd-a99e-4844bcf3077f","@type":"ConstraintViolationList","status":422,"violations":[{"propertyPath":"address","message":"This value is already used.","code":"23bd9dbf-6b9b-41cd-a99e-4844bcf3077f"}],"detail":"address: This value is already used.","hydra:title":"An error occurred","hydra:description":"address: This value is already used.","type":"\/validation_errors\/23bd9dbf-6b9b-41cd-a99e-4844bcf3077f","title":"An error occurred"}
+
+ Starting Phase 1: Identity + Email Setup
+Generated identity: Rose Ross / Base Username: rose.ross
+ Fetching available mail.tm domains...
+ Using domain: ptct.net
+ Trying to create email: rose.ross372@ptct.net...
+ Temp email created successfully.
+ Failed to authenticate temp email account.
+{"code":401,"message":"Invalid credentials."}
+
+ Starting Phase 1: Identity + Email Setup
+Generated identity: Darlene Hall / Base Username: darlene.hall
+ Fetching available mail.tm domains...
+ Using domain: ptct.net
+ Trying to create email: darlene.hall987@ptct.net...
+ Temp email created successfully.
+ Failed to authenticate temp email account.
+{"code":401,"message":"Invalid credentials."}
+
+ Starting Phase 1: Identity + Email Setup
+Generated identity: Nicholas Davis / Base Username: nicholas.davis
+ Fetching available mail.tm domains...
+ Using domain: ptct.net
+ Trying to create email: nicholas.davis192@ptct.net...
+ Temp email created successfully.
+ Waiting for email registration to sync before login...
+ Login attempt 1/5 failed. Retrying in 2s...
+ Login attempt 2/5 failed. Retrying in 2s...
+ Login attempt 3/5 failed. Retrying in 2s...
+ Login attempt 4/5 failed. Retrying in 2s...
+ Login attempt 5/5 failed. Retrying in 2s...
+ Failed to authenticate temp email account after 5 attempts.
+{"code":401,"message":"Invalid credentials."}
+
+ Starting Phase 1: Identity + Email Setup
+Generated identity: Nathan Cox / Base Username: nathan.cox
+ Fetching available mail.tm domains...
+ Trying domain: ptct.net
+ Attempting to create: nathan.cox838@ptct.net...
+ Temp email created successfully.
+ Waiting for email registration to sync before login...
+
+ Starting Phase 1: Identity + Email Setup
+Generated identity: Melissa Alvarado / Base Username: melissa.alvarado
+ Fetching available mail.tm domains...
+ Trying domain: ptct.net
+ Attempting to create: melissa.alvarado697@ptct.net...
+ Email taken or invalid, retrying with new username...
+ Attempting to create: melissa.alvarado185@ptct.net...
+ Email taken or invalid, retrying with new username...
+ Attempting to create: melissa.alvarado843@ptct.net...
+ Email taken or invalid, retrying with new username...
+ Attempting to create: melissa.alvarado735@ptct.net...
+ Temp email created successfully.
+ Waiting for email registration to sync before login...
+ Login attempt 1/5 failed. Retrying in 2s...
+ Login attempt 2/5 failed. Retrying in 2s...
+ Login attempt 3/5 failed. Retrying in 2s...
+ Login attempt 4/5 failed. Retrying in 2s...
+ Login attempt 5/5 failed. Retrying in 2s...
+ Login failed for this domain, trying next domain...
+ All domain attempts failed. Cannot create temp email.
+
+ Starting Phase 1: Identity + Email Setup (1secmail)
+Generated identity: Jennifer Thomas / Email: jennifer.thomas968@1secmail.com
+ Identity saved to .env
+ Phase 1 complete with 1secmail.
+
+ Starting Phase 1: Identity + Email Setup (1secmail)
+Generated identity: Sandra Turner / Email: sandra.turner173@1secmail.com
+ Identity saved to .env
+ Phase 1 complete with 1secmail.
+
+ Starting Phase 2: GitHub Account Creation
+
+ Starting Phase 1: Identity + Email Setup (1secmail)
+Generated identity: Catherine Smith / Email: catherine.smith320@1secmail.com
+ Identity saved to .env
+ Phase 1 complete with 1secmail.
+
+ Starting Phase 2: GitHub Account Creation
+ GitHub registration form submitted. Waiting for email...
+ GitHub registration failed: Expecting value: line 1 column 1 (char 0)
+
+ Starting Phase 1: Identity + Email Setup (1secmail)
+Generated identity: Karen Reed / Email: karen.reed146@1secmail.com
+ Identity saved to .env
+ Phase 1 complete with 1secmail.
+
+ Starting Phase 2: GitHub Account Creation
+ GitHub registration form submitted. Waiting for email...
+ GitHub registration failed: Expecting value: line 1 column 1 (char 0)
+
+ Starting Phase 1: Identity + Email Setup (1secmail)
+Generated identity: Jared Vaughn / Email: jared.vaughn754@1secmail.com
+ Identity saved to .env
+ Phase 1 complete with 1secmail.
+
+ Starting Phase 2: GitHub Account Creation
+ GitHub registration form submitted. Waiting for email...
+ GitHub registration failed: Expecting value: line 1 column 1 (char 0)
+
+ Starting Phase 1: Identity + Email Setup (1secmail)
+Generated identity: Amy Ramsey / Email: amy.ramsey267@1secmail.com
+ Identity saved to .env
+ Phase 1 complete with 1secmail.
+
+ Starting Phase 2: GitHub Account Creation
+ GitHub registration form submitted. Waiting for email...
+ GitHub registration failed: Expecting value: line 1 column 1 (char 0)
+
+ Starting Phase 1: Identity + Email Setup (1secmail)
+Generated identity: Derek Woods / Email: derek.woods778@1secmail.com
+ Identity saved to .env
+ Phase 1 complete with 1secmail.
+
+ Starting Phase 2: GitHub Account Creation
+ GitHub registration form submitted. Waiting for email...
+ GitHub registration failed: Expecting value: line 1 column 1 (char 0)
+
+ Starting Phase 1: Identity + Email Setup (1secmail)
+Generated identity: Brett Williams / Email: brett.williams749@1secmail.com
+ Identity saved to .env
+ Phase 1 complete with 1secmail.
+
+ Starting Phase 2: GitHub Account Creation
+ GitHub registration form submitted. Waiting for email...
+ GitHub registration failed: Expecting value: line 1 column 1 (char 0)
+
+ Starting Phase 1: Identity + Email Setup (1secmail)
+Generated identity: Angela Patel / Email: angela.patel190@1secmail.com
+ Identity saved to .env
+ Phase 1 complete with 1secmail.
+
+ Starting Phase 2: GitHub Account Creation
+ GitHub registration form submitted. Waiting for email...
+ GitHub registration failed: Expecting value: line 1 column 1 (char 0)
+
+ Starting Phase 1: Identity + Email Setup (1secmail)
+Generated identity: Kendra Brewer / Email: kendra.brewer730@1secmail.com
+ Identity saved to .env
+ Phase 1 complete with 1secmail.
+
+ Starting Phase 2: GitHub Account Creation
+ GitHub registration form submitted. Waiting for email...
+ GitHub registration failed: Expecting value: line 1 column 1 (char 0)
